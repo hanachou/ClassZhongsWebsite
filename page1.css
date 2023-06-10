@@ -16,3 +16,13 @@ body{
     width: 200px;
     top: 11px;
 }
+
+.event{
+    position: absolute;
+    text-align: right;
+    color: #3d4a3c;
+    font-size: 30px;
+    font-family: Helvetica;
+    width: 100px;
+    top: 13px;
+}
