@@ -3,5 +3,6 @@ body{
 }
 #fbar{
     position: sticky;
-    opacity: 1;
+    width: 100vw;
+    height: 2000px;
 }
