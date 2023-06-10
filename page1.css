@@ -7,3 +7,9 @@ body{
     top: 0px;
     left: 0px;
 }
+
+.title{
+    position: absolute;
+    font-size: 30px;
+    width: 130px;
+}
