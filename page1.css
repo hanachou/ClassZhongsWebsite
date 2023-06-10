@@ -11,5 +11,6 @@ body{
 .title{
     position: absolute;
     font-size: 30px;
-    width: 130px;
+    font-family: Microsoft JhengHei;
+    width: 200px;
 }
