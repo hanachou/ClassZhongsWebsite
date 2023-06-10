@@ -1,3 +1,23 @@
+body{
+    background-color: #fbf7eb;
+}
+
+#fbar{
+    position: absolute;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+}
+
+.title{
+    position: absolute;
+    color: #3d4a3c;
+    font-size: 35px;
+    font-family: Helvetica;
+    width: 200px;
+    top: 11px;
+}
+
 .event{
     position: absolute;
     text-align: right;
