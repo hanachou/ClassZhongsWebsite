@@ -18,8 +18,9 @@ body{
 }
 
 .event{
-    position: relative;
+    position: absolute;
     text-align: right;
+    right: 100px;
     color: #3d4a3c;
     font-size: 30px;
     font-family: Helvetica;
