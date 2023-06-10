@@ -3,4 +3,5 @@ body{
 }
 #fbar{
     position: sticky;
+    opacity: 1;
 }
