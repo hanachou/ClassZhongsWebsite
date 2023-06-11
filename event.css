@@ -9,6 +9,15 @@ body{
     left: 0px;
 }
 
+#logo{
+    position: absolute;
+    border-radius: 10%;
+    height: 55px;
+    width: 55px;
+    top: 1.1vh;
+    right: 95.5vw;
+}
+
 .title{
     position: absolute;
     color: #3d4a3c;
@@ -16,8 +25,8 @@ body{
     font-family: Helvetica;
     text-align: left;
     width: 200px;
-    top: 11px;
-    right: 80vw;
+    top: 1.5vh;
+    right: 81vw;
 }
 
 .event{
@@ -28,7 +37,7 @@ body{
     font-size: 30px;
     font-family: Helvetica;
     width: 100px;
-    top: 13px;
+    top: 1.75vh;
 }
 
 .thank{
@@ -39,5 +48,5 @@ body{
     font-size: 30px;
     font-family: Helvetica;
     width: 130px;
-    top: 13px;
+    top: 1.75vh;
 }
