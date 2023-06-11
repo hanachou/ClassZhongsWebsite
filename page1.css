@@ -9,10 +9,6 @@ body{
     left: 0px;
 }
 
-#fp{
-    position: relative;
-}
-
 #logo{
     position: absolute;
     border-radius: 10%;
