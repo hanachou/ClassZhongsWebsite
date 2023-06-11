@@ -11,6 +11,7 @@ body{
 
 #logo{
     position: absolute;
+    border-radius: 10%;
     height: 50px;
     width: 50px;
 }
@@ -45,5 +46,5 @@ body{
     font-size: 30px;
     font-family: Helvetica;
     width: 130px;
-    top: 13px;
+    top: 2vh;
 }
