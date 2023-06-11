@@ -29,17 +29,6 @@ body{
     top: 13px;
 }
 
-.page1{
-    position: absolute;
-    text-align: right;
-    right: 320px;
-    color: #3d4a3c;
-    font-size: 30px;
-    font-family: Helvetica;
-    width: 100px;
-    top: 13px;
-}
-
 .thank{
     position: absolute;
     text-align: right;
