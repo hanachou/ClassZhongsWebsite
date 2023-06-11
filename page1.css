@@ -12,10 +12,10 @@ body{
 #logo{
     position: absolute;
     border-radius: 10%;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     top: 1.35vh;
-    right: 95vw;
+    right: 97vw;
 }
 
 .title{
@@ -26,7 +26,7 @@ body{
     text-align: left;
     width: 200px;
     top: 1.5vh;
-    right: 80vw;
+    right: 83vw;
 }
 
 .event{
