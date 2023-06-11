@@ -14,14 +14,16 @@ body{
     color: #3d4a3c;
     font-size: 35px;
     font-family: Helvetica;
+    text-align: left;
     width: 200px;
     top: 11px;
+    right: 80vw;
 }
 
 .event{
     position: absolute;
     text-align: right;
-    right: 200px;
+    right: 13vw;
     color: #3d4a3c;
     font-size: 30px;
     font-family: Helvetica;
@@ -32,7 +34,7 @@ body{
 .thank{
     position: absolute;
     text-align: right;
-    right: 30px;
+    right: 2vw;
     color: #3d4a3c;
     font-size: 30px;
     font-family: Helvetica;
