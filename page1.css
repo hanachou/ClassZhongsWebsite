@@ -23,7 +23,7 @@ body{
 .event{
     position: absolute;
     text-align: right;
-    right: 200px;
+    right: 10vw;
     color: #3d4a3c;
     font-size: 30px;
     font-family: Helvetica;
@@ -34,7 +34,7 @@ body{
 .thank{
     position: absolute;
     text-align: right;
-    right: 30px;
+    right: 20vw;
     color: #3d4a3c;
     font-size: 30px;
     font-family: Helvetica;
