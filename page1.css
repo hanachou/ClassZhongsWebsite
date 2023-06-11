@@ -11,6 +11,8 @@ body{
 
 #logo{
     position: absolute;
+    height: 1%;
+    width: 1%;
 }
 
 .title{
