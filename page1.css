@@ -24,13 +24,14 @@ body{
     height: 8.75%;
     right: 11.35vw;
     opacity: 0;
+    z-index: 3;
 }
 
-.event:hover{
-    transition-duration: 0.1s;
+/* #ecolor:hover{
+    opacity: 1;
     transition-timing-function: ease-in-out;
-    color: #d5e3d4
-}
+    transition-duration: 0.3s;
+} */
 
 .title{
     position: absolute;
@@ -52,6 +53,7 @@ body{
     font-family: Helvetica;
     width: 100px;
     top: 1.75vh;
+    z-index: 1;
 }
 
 .thank{
