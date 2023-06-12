@@ -26,6 +26,10 @@ body{
     opacity: 0;
 }
 
+#ecolor:hover{
+    opacity: 1;
+}
+
 .title{
     position: absolute;
     color: #3d4a3c;
@@ -46,6 +50,10 @@ body{
     font-family: Helvetica;
     width: 100px;
     top: 1.75vh;
+}
+
+.event:hover{
+    color: #3d4a3c
 }
 
 .thank{
