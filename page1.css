@@ -29,7 +29,7 @@ body{
     right: 81vw;
 }
 
-.event{
+/* .event{
     position: absolute;
     text-align: right;
     right: 13vw;
@@ -38,6 +38,12 @@ body{
     font-family: Helvetica;
     width: 100px;
     top: 1.75vh;
+} */
+
+.event{
+    position: absolute;
+    right: 13vw;
+    top: 0px;
 }
 
 .thank{
