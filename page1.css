@@ -18,6 +18,11 @@ body{
     right: 95.5vw;
 }
 
+#ecolor{
+    position: absolute;
+    top: 0px;
+}
+
 .title{
     position: absolute;
     color: #3d4a3c;
