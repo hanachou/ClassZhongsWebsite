@@ -22,7 +22,8 @@ body{
     position: absolute;
     top: 0px;
     height: 8.75%;
-    right: 25vw;
+    right: 11.35vw;
+    opacity: 0;
 }
 
 .title{
