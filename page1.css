@@ -28,6 +28,9 @@ body{
 
 #ecolor:hover{
     opacity: 1;
+    .event{
+        color: #3d4a3c
+    }
 }
 
 .title{
@@ -50,10 +53,6 @@ body{
     font-family: Helvetica;
     width: 100px;
     top: 1.75vh;
-}
-
-.event:hover{
-    color: #3d4a3c
 }
 
 .thank{
