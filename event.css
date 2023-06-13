@@ -18,6 +18,11 @@ body{
     right: 95.5vw;
 }
 
+#timeline{
+    position: absolute;
+    left: 50%;
+}
+
 .title{
     position: absolute;
     color: #3d4a3c;
