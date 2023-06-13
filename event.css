@@ -22,7 +22,7 @@ body{
     position: absolute;
     height: 800px;
     width: 240px;
-    left: 50vw;
+    padding-left: 50vw;
 }
 
 .title{
