@@ -20,8 +20,8 @@ body{
 
 #timeline{
     position: absolute;
-    height: 50%;
-    width: 50%;
+    height: 800px;
+    width: 240px;
     left: 50vw;
 }
 
