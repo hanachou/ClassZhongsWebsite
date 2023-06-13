@@ -20,7 +20,9 @@ body{
 
 #timeline{
     position: absolute;
-    left: 50%;
+    height: 50vh;
+    width: 50vw;
+    left: 50vw;
 }
 
 .title{
