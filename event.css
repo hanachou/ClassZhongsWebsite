@@ -20,9 +20,14 @@ body{
 
 #timeline{
     position: absolute;
-    height: 800px;
-    width: 240px;
-    margin-left: 50vw;
+    height: 3000px;
+    width: 900px;
+    top: -20vh;
+    left: 19vw;
+}
+
+#bcolor{
+    position: absolute;
 }
 
 .title{
