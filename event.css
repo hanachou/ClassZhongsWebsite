@@ -22,17 +22,17 @@ body{
     position: absolute;
     height: 3000px;
     width: 900px;
-    top: -20vh;
+    top: -10vh;
     left: 19vw;
 }
 
-#bcolor{
+#bcolort{
     position: absolute;
     color: #a3a58d;
     width: 180px;
     height: 120px;
     right: 17vw;
-    top: 33vh;
+    top: 43vh;
 }
 
 .title{
@@ -74,5 +74,5 @@ body{
     font-size: 25px;
     color: #fbf7eb;
     right: 21.5vw;
-    top: 38.3vh;
+    top: 48.3vh;
 }
