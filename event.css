@@ -28,11 +28,26 @@ body{
 
 #bctrain{
     position: absolute;
-    color: #a3a58d;
     width: 180px;
     height: 120px;
     right: 17vw;
     top: 43vh;
+}
+
+#bcpromote{
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    left: 15vw;
+    top: 96.5vh;
+}
+
+#bchalloween{
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    right: 17vw;
+    top: 150vh;
 }
 
 .title{
@@ -81,7 +96,16 @@ body{
     position: absolute;
     font-family: Helvetica;
     font-size: 25px;
+    color: #fbf7eb;
+    left: 17.8vw;
+    top: 102vh;
+}
+
+.halloween{
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 25px;
     /* color: #fbf7eb; */
     right: 21.5vw;
-    top: 48.3vh;
+    top: 155.7vh;
 }
