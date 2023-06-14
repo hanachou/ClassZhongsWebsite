@@ -47,15 +47,23 @@ body{
     width: 180px;
     height: 120px;
     right: 17vw;
-    top: 150vh;
+    top: 149.5vh;
 }
 
 #bcdance{
     position: absolute;
     width: 180px;
     height: 120px;
-    left: 15vw;
-    top: 203.5vh;
+    left: 16vw;
+    top: 202.5vh;
+}
+
+#bcyearend{
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    right: 15vw;
+    top: 253.5vh;
 }
 
 .title{
@@ -115,14 +123,23 @@ body{
     font-size: 25px;
     color: #fbf7eb;
     right: 20.5vw;
-    top: 155.5vh;
+    top: 155vh;
 }
 
-.halloween{
+.dance{
     position: absolute;
     font-family: Helvetica;
     font-size: 25px;
-    /* color: #fbf7eb; */
-    left: 17.8vw;
-    top: 209.4vh;
+    color: #fbf7eb;
+    left: 19.5vw;
+    top: 207.8vh;
+}
+
+.yearend{
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 25px;
+    color: #fbf7eb;
+    right: 17.8vw;
+    top: 258.8vh;
 }
