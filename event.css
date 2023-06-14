@@ -28,6 +28,10 @@ body{
 
 #bcolor{
     position: absolute;
+    /* height: 15%;
+    width: 15%; */
+    right: 18vw;
+    top: 34vh;
 }
 
 .title{
@@ -61,4 +65,10 @@ body{
     font-family: Helvetica;
     width: 130px;
     top: 1.75vh;
+}
+
+.train{
+    position: absolute;
+    right: 20vw;
+    top: 25vh;
 }
