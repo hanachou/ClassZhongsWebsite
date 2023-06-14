@@ -50,6 +50,14 @@ body{
     top: 150vh;
 }
 
+#bcdance{
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    left: 15vw;
+    top: 203.5vh;
+}
+
 .title{
     position: absolute;
     color: #3d4a3c;
@@ -105,7 +113,16 @@ body{
     position: absolute;
     font-family: Helvetica;
     font-size: 25px;
+    color: #fbf7eb;
+    right: 20.5vw;
+    top: 155.5vh;
+}
+
+.halloween{
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 25px;
     /* color: #fbf7eb; */
-    right: 21.5vw;
-    top: 155.7vh;
+    left: 17.8vw;
+    top: 209.4vh;
 }
