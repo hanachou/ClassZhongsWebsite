@@ -32,6 +32,7 @@ body{
     height: 120px;
     right: 17vw;
     top: 43vh;
+    /* top: 353px; */
 }
 
 #bcpromote{
@@ -39,7 +40,8 @@ body{
     width: 180px;
     height: 120px;
     left: 15vw;
-    top: 96.5vh;
+    /* top: 96.5vh; */
+    top: 793px;
 }
 
 #bchalloween{
@@ -66,6 +68,14 @@ body{
     top: 253.5vh;
 }
 
+#bcbasketball{
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    left: 16vw;
+    top: 303.5vh;
+}
+
 .title{
     position: absolute;
     color: #3d4a3c;
@@ -79,13 +89,18 @@ body{
 
 .event{
     position: absolute;
-    text-align: right;
+    text-align: center;
     right: 13vw;
     color: #3d4a3c;
     font-size: 30px;
     font-family: Helvetica;
     width: 100px;
     top: 1.75vh;
+}
+
+.event:hover{
+    color: #fbf7eb;
+    background-color: #3d4a3c;
 }
 
 .thank{
@@ -142,4 +157,13 @@ body{
     color: #fbf7eb;
     right: 17.8vw;
     top: 258.8vh;
+}
+
+.basketball{
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 25px;
+    color: #fbf7eb;
+    left: 20.5vw;
+    top: 309vh;
 }
