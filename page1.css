@@ -66,3 +66,14 @@ body{
     width: 130px;
     top: 1.75vh;
 }
+
+.picture_wall{
+    position: absolute;
+    text-align: right;
+    right: 20.5vw;
+    color: #3d4a3c;
+    font-size: 30px;
+    font-family: Helvetica;
+    width: 130px;
+    top: 1.75vh;
+}

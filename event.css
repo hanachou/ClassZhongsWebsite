@@ -89,7 +89,7 @@ body{
 
 .event{
     position: absolute;
-    text-align: center;
+    text-align: right;
     right: 13vw;
     color: #3d4a3c;
     font-size: 30px;
@@ -98,15 +98,26 @@ body{
     top: 1.75vh;
 }
 
-.event:hover{
+/* .event:hover{
     color: #fbf7eb;
     background-color: #3d4a3c;
-}
+} */
 
 .thank{
     position: absolute;
     text-align: right;
     right: 2vw;
+    color: #3d4a3c;
+    font-size: 30px;
+    font-family: Helvetica;
+    width: 130px;
+    top: 1.75vh;
+}
+
+.picture_wall{
+    position: absolute;
+    text-align: right;
+    right: 20.5vw;
     color: #3d4a3c;
     font-size: 30px;
     font-family: Helvetica;
