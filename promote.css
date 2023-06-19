@@ -61,3 +61,8 @@ body{
     width: 130px;
     top: 1.75vh;
 }
+
+.promotelines{
+    position: absolute;
+    opacity: 0;
+}
