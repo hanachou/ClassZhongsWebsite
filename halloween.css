@@ -44,6 +44,27 @@ body{
     width: 1000px;
     top: 93vh;
     left: 16vw;
+    animation: delay 1s 0s none;
+}
+
+#hallo_pict1{
+    position: absolute;
+    border-radius: 5%;
+    height: 800px;
+    width: 1000px;
+    top: 200vh;
+    left: 16vw;
+    animation: delay 1s 0s none;
+}
+
+#hallo_pict2{
+    position: absolute;
+    border-radius: 5%;
+    height: 800px;
+    width: 1000px;
+    top: 305vh;
+    left: 16vw;
+    animation: delay 1s 0s none;
 }
 
 .title{
