@@ -60,35 +60,57 @@ body{
 
 .event{
     position: absolute;
-    text-align: right;
-    right: 13vw;
+    text-align: center;
+    right: 12vw;
     color: #3d4a3c;
     font-size: 30px;
     font-family: Helvetica;
+    line-height: 1.5;
     width: 100px;
     top: 1.75vh;
+    z-index: 1;
+}
+
+.event:hover{
+    background-color: #3d4a3c;
+    color: #fbf7eb;
+    transition-duration: 0.3s;
 }
 
 .thank{
     position: absolute;
-    text-align: right;
-    right: 2vw;
+    text-align: center;
+    right: 1.3vw;
     color: #3d4a3c;
     font-size: 30px;
     font-family: Helvetica;
-    width: 130px;
+    line-height: 1.5;
+    width: 150px;
     top: 1.75vh;
+}
+
+.thank:hover{
+    background-color: #3d4a3c;
+    color: #fbf7eb;
+    transition-duration: 0.3s;
 }
 
 .picture_wall{
     position: absolute;
-    text-align: right;
-    right: 20.5vw;
+    text-align: center;
+    right: 19.3vw;
     color: #3d4a3c;
     font-size: 30px;
     font-family: Helvetica;
+    line-height: 1.5;
     width: 130px;
     top: 1.75vh;
+}
+
+.picture_wall:hover{
+    background-color: #3d4a3c;
+    color: #fbf7eb;
+    transition-duration: 0.3s;
 }
 
 .dancelines{
