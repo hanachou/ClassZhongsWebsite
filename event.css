@@ -92,6 +92,30 @@ body{
     animation: delay 1s 0s none;
 }
 
+#eyeregular{
+    position: absolute;
+    width: 370px;
+    height: 320px;
+    top: 15vh;
+    left: 5vw;
+    animation: delay 1s 0s none;
+}
+
+#eyespecial{
+    position: absolute;
+    width: 370px;
+    height: 320px;
+    top: 15vh;
+    left: 5vw;
+    opacity: 0;
+    z-index: 1;
+    animation: delay 1s 0s none;
+}
+
+#eyespecial:hover{
+    opacity: 1;
+}
+
 .title{
     position: absolute;
     color: #3d4a3c;
