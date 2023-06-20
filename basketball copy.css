@@ -83,3 +83,10 @@ body{
     color: #fbf7eb;
     transition-duration: 0.3s;
 }
+
+#gend{
+    position: absolute;
+    width: 100vw;
+    top: 220vh;
+    left: 0;
+}

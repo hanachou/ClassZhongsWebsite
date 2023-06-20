@@ -115,6 +115,13 @@ body{
     opacity: 1;
 }
 
+#gend{
+    position: absolute;
+    width: 100vw;
+    top: 350vh;
+    left: 0;
+}
+
 .title{
     position: absolute;
     color: #3d4a3c;

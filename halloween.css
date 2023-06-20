@@ -67,6 +67,13 @@ body{
     animation: delay 1s 0s none;
 }
 
+#gend{
+    position: absolute;
+    width: 100vw;
+    top: 210vh;
+    left: 0;
+}
+
 .title{
     position: absolute;
     color: #3d4a3c;
