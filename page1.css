@@ -27,10 +27,17 @@ body{
     right: 95.5vw;
 }
 
-#pend{
+/* #pend{
     position: absolute;
-    top: -10vh;
+    top: 180vh;
     opacity: 0;
+} */
+
+#gend{
+    position: absolute;
+    width: 100vw;
+    top: 220vh;
+    left: 0;
 }
 
 /* #ecolor{
