@@ -2,6 +2,15 @@ body{
     background-color: #fbf7eb;
 }
 
+@keyframes delay{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
 #fbar{
     position: absolute;
     width: 100vw;
@@ -16,6 +25,66 @@ body{
     width: 55px;
     top: 1.1vh;
     right: 95.5vw;
+}
+
+#coding{
+    position: absolute;
+    border-radius: 5%;
+    top: 20vh;
+    left: 8vw;
+    height: 415.5px;
+    width: 553.875px;
+    animation: delay 1s 0s none;
+}
+
+#art{
+    position: absolute;
+    border-radius: 5%;
+    top: 20vh;
+    left: 54vw;
+    height: 415.5px;
+    width: 553.875px;
+    animation: delay 1s 0s none;
+}
+
+#photographer{
+    position: absolute;
+    border-radius: 5%;
+    top: 80vh;
+    left: 8vw;
+    height: 415.5px;
+    width: 553.875px;
+    animation: delay 1s 0s none;
+}
+
+#test{
+    position: absolute;
+    border-radius: 5%;
+    top: 80vh;
+    left: 54vw;
+    height: 415.5px;
+    width: 553.875px;
+    animation: delay 1s 0s none;
+}
+
+#illustrater{
+    position: absolute;
+    border-radius: 5%;
+    top: 140vh;
+    left: 8vw;
+    height: 415.5px;
+    width: 553.875px;
+    animation: delay 1s 0s none;
+}
+
+#article{
+    position: absolute;
+    border-radius: 5%;
+    top: 140vh;
+    left: 54vw;
+    height: 415.5px;
+    width: 553.875px;
+    animation: delay 1s 0s none;
 }
 
 .title{
@@ -60,4 +129,173 @@ body{
     font-family: Helvetica;
     width: 130px;
     top: 1.75vh;
+}
+
+.codetitle{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 35px;
+    font-family: Helvetica;
+    line-height: 1.8;
+    width: 300px;
+    top: 27vh;
+    left: 13vw;
+    animation: delay 1s 0s none;
+}
+
+.codelines{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 30px;
+    font-family: Helvetica;
+    line-height: 1.8;
+    width: 400px;
+    top: 37vh;
+    left: 13vw;
+    animation: delay 1s 0s none;
+}
+
+.arttitle{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 35px;
+    font-family: Helvetica;
+    line-height: 1.8;
+    width: 300px;
+    top: 23.5vh;
+    left: 59vw;
+    animation: delay 1s 0s none;
+}
+
+.artlines{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 30px;
+    font-family: Helvetica;
+    line-height: 1.8;
+    width: 400px;
+    top: 32vh;
+    left: 59vw;
+    animation: delay 1s 0s none;
+}
+
+.phototitle{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 35px;
+    font-family: Helvetica;
+    line-height: 1.3;
+    width: 305px;
+    top: 86vh;
+    left: 13vw;
+    animation: delay 1s 0s none;
+}
+
+.photolines{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 30px;
+    font-family: Helvetica;
+    line-height: 1.8;
+    width: 400px;
+    top: 98vh;
+    left: 13vw;
+    animation: delay 1s 0s none;
+}
+
+.testtitle{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 35px;
+    font-family: Helvetica;
+    line-height: 1.3;
+    width: 360px;
+    top: 90vh;
+    left: 59vw;
+    animation: delay 1s 0s none;
+}
+
+.testlines{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 30px;
+    font-family: Helvetica;
+    line-height: 1.8;
+    width: 400px;
+    top: 102vh;
+    left: 59vw;
+    animation: delay 1s 0s none;
+}
+
+.testlines2{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 30px;
+    font-family: Helvetica;
+    line-height: 1.8;
+    width: 400px;
+    top: 115.3vh;
+    left: 59vw;
+    animation: delay 1s 0s none;
+}
+
+.illusttitle{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 35px;
+    font-family: Helvetica;
+    line-height: 1.3;
+    width: 305px;
+    top: 147vh;
+    left: 13vw;
+    animation: delay 1s 0s none;
+}
+
+.illustlines{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 30px;
+    font-family: Helvetica;
+    line-height: 1.8;
+    width: 400px;
+    top: 160vh;
+    left: 13vw;
+    animation: delay 1s 0s none;
+}
+
+.articletitle{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 35px;
+    font-family: Helvetica;
+    line-height: 1.3;
+    width: 360px;
+    top: 149vh;
+    left: 61vw;
+    animation: delay 1s 0s none;
+}
+
+.articlelines{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 30px;
+    font-family: Helvetica;
+    line-height: 1.8;
+    width: 380px;
+    top: 162vh;
+    left: 61vw;
+    animation: delay 1s 0s none;
 }
