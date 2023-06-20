@@ -27,6 +27,12 @@ body{
     right: 95.5vw;
 }
 
+#pend{
+    position: absolute;
+    top: -10vh;
+    opacity: 0;
+}
+
 /* #ecolor{
     position: absolute;
     top: 0px;
@@ -48,6 +54,85 @@ body{
     width: 1000px;
     left: 16vw;
     top: 8.9vh;
+    animation: delay 1s 0s none;
+}
+
+#f_event{
+    position: absolute;
+    height: 150px;
+    width: 450px;
+    left: 35vw;
+    top: 148vh;
+    border: #3d4a3c;
+    border: solid;
+    border-radius: 5%;
+    animation: delay 1s 0s none;
+}
+
+.f_train{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 175vh;
+    left: 8.75vw;
+    z-index: 1;
+    animation: delay 1s 0s none;
+}
+
+/* .f_train:hover{
+    z-index: 2;
+    height: 250px;
+    width: 250px;
+    transition-duration: 0.3s;
+} */
+
+.f_promote{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 175vh;
+    left: 22.7vw;
+    z-index: 1;
+    animation: delay 1s 0s none;
+}
+
+.f_halloween{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 175vh;
+    left: 36.65vw;
+    z-index: 1;
+    animation: delay 1s 0s none;
+}
+
+.f_dance{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 175vh;
+    left: 50.6vw;
+    z-index: 1;
+    animation: delay 1s 0s none;
+}
+
+.f_end{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 175vh;
+    left: 64.55vw;
+    z-index: 1;
+    animation: delay 1s 0s none;
+}
+
+.f_bask{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 175vh;
+    left: 78.5vw;
+    z-index: 1;
     animation: delay 1s 0s none;
 }
 
