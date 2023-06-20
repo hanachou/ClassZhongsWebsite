@@ -2,6 +2,15 @@ body{
     background-color: #fbf7eb;
 }
 
+@keyframes delay{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
 #fbar{
     position: absolute;
     width: 100vw;
@@ -18,20 +27,29 @@ body{
     right: 95.5vw;
 }
 
-#ecolor{
+/* #ecolor{
     position: absolute;
     top: 0px;
     height: 8.75%;
     right: 11.35vw;
     opacity: 0;
     z-index: 3;
-}
+} */
 
 /* #ecolor:hover{
     opacity: 1;
     transition-timing-function: ease-in-out;
     transition-duration: 0.3s;
 } */
+
+#first{
+    position: absolute;
+    height: 1000px;
+    width: 1000px;
+    left: 16vw;
+    top: 8.9vh;
+    animation: delay 1s 0s none;
+}
 
 .title{
     position: absolute;
