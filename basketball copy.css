@@ -2,15 +2,6 @@ body{
     background-color: #fbf7eb;
 }
 
-@keyframes delay{
-    from{
-        opacity:0;
-    }
-    to{
-        opacity:1;
-    }
-}
-
 #fbar{
     position: absolute;
     width: 100vw;
@@ -25,26 +16,6 @@ body{
     width: 55px;
     top: 1.1vh;
     right: 95.5vw;
-}
-
-#bask_talks{
-    position: absolute;
-    border-radius: 5%;
-    top: 15vh;
-    left: 25vw;
-    height: 554px;
-    width: 738.5px;
-    animation: delay 1s 0s none;
-}
-
-#bask_picts{
-    position: absolute;
-    border-radius: 5%;
-    height: 800px;
-    width: 1000px;
-    top: 93vh;
-    left: 16vw;
-    animation: delay 1s 0s none;
 }
 
 .title{
@@ -89,17 +60,4 @@ body{
     font-family: Helvetica;
     width: 130px;
     top: 1.75vh;
-}
-
-.basklines{
-    position: absolute;
-    text-align: left;
-    color: #3d4a3c;
-    font-size: 25px;
-    font-family: Helvetica;
-    line-height: 1.5;
-    width: 550px;
-    top: 25vh;
-    left: 32vw;
-    animation: delay 1s 0s none;
 }
