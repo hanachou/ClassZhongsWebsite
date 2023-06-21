@@ -115,10 +115,45 @@ body{
     opacity: 1;
 }
 
+#normalp0{
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    top: 280vh;
+    right: 10vw;
+    animation: delay 1s 0s none;
+}
+
+#specialp0{
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    top: 280vh;
+    right: 10vw;
+    opacity: 0;
+    z-index: 1;
+}
+
+#specialp0:hover{
+    opacity: 1;
+}
+
+#e_penguin{
+    position: absolute;
+    height: 384px;
+    width: 384px;
+    left: 37.5vw;
+    top: 340vh;
+    /* border: #3d4a3c;
+    border: solid;
+    border-radius: 5%; */
+    animation: delay 1s 0s none;
+}
+
 #gend{
     position: absolute;
     width: 100vw;
-    top: 350vh;
+    top: 400vh;
     left: 0;
 }
 

@@ -45,10 +45,22 @@ body{
     animation: delay 1s 0s none;
 }
 
+#p_penguin{
+    position: absolute;
+    height: 384px;
+    width: 384px;
+    left: 37.5vw;
+    top: 360vh;
+    /* border: #3d4a3c;
+    border: solid;
+    border-radius: 5%; */
+    animation: delay 1s 0s none;
+}
+
 #gend{
     position: absolute;
     width: 100vw;
-    top: 380vh;
+    top: 420vh;
     left: 0;
 }
 

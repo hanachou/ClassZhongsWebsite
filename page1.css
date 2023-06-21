@@ -36,7 +36,7 @@ body{
 #gend{
     position: absolute;
     width: 100vw;
-    top: 220vh;
+    top: 300vh;
     left: 0;
 }
 
@@ -73,6 +73,30 @@ body{
     border: #3d4a3c;
     border: solid;
     border-radius: 5%;
+    animation: delay 1s 0s none;
+}
+
+#f_FAQs{
+    position: absolute;
+    height: 150px;
+    width: 450px;
+    left: 35vw;
+    top: 220vh;
+    border: #3d4a3c;
+    border: solid;
+    border-radius: 5%;
+    animation: delay 1s 0s none;
+}
+
+#f_penguin{
+    position: absolute;
+    height: 384px;
+    width: 384px;
+    left: 37.5vw;
+    top: 245vh;
+    /* border: #3d4a3c;
+    border: solid;
+    border-radius: 5%; */
     animation: delay 1s 0s none;
 }
 
