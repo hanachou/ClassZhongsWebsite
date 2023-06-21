@@ -52,6 +52,29 @@ body{
     left: 0;
 }
 
+#catap_normal{
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    top: 345vh;
+    right: 3vw;
+    animation: delay 1s 0s none;
+}
+
+#catap_shiny{
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    top: 345vh;
+    right: 3vw;
+    opacity: 0;
+    z-index: 1;
+}
+
+#catap_shiny:hover{
+    opacity: 1;
+}
+
 .title{
     position: absolute;
     color: #3d4a3c;
@@ -116,4 +139,17 @@ body{
     background-color: #3d4a3c;
     color: #fbf7eb;
     transition-duration: 0.3s;
+}
+
+.catap_title{
+    position: absolute;
+    background-color: #3d4a3c;
+    color: #fbf7eb;
+    font-size: 20px;
+    font-family: Helvetica;
+    text-align: center;
+    top: 340vh;
+    right: 9vw;
+    width: 110px;
+    border-radius: 5%;
 }
