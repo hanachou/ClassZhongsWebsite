@@ -54,11 +54,19 @@ body{
     transition-duration: 0.3s;
 } */
 
-#first{
+.set{
+    display: flex;
+    justify-content: center;
     position: relative;
-    height: 135vh;
-    left: 39vh;
-    top: 9.8vh;
+    top: -15dvh;
+}
+
+#first{
+    z-index: -10;
+    position: relative;
+    width: 80vw;
+    left: 10vw;
+    top: 7.8dvh;
     animation: delay 1s 0s none;
 }
 
@@ -67,7 +75,7 @@ body{
     height: 150px;
     width: 450px;
     left: 35vw;
-    top: 148vh;
+    top: 165vh;
     border: #3d4a3c;
     border: solid;
     border-radius: 5%;
@@ -100,11 +108,9 @@ body{
 }
 
 .f_train{
-    position: absolute;
+    position: relative;
     height: 200px;
     width: 200px;
-    top: 175vh;
-    left: 8.75vw;
     z-index: 1;
     animation: delay 1s 0s none;
     transform: scale(1);
@@ -121,11 +127,9 @@ body{
 }
 
 .f_promote{
-    position: absolute;
+    position: relative;
     height: 200px;
     width: 200px;
-    top: 175vh;
-    left: 22.7vw;
     z-index: 1;
     animation: delay 1s 0s none;
     transform: scale(1);
@@ -142,11 +146,9 @@ body{
 }
 
 .f_halloween{
-    position: absolute;
+    position: relative;
     height: 200px;
     width: 200px;
-    top: 175vh;
-    left: 36.65vw;
     z-index: 1;
     animation: delay 1s 0s none;
     transform: scale(1);
@@ -163,11 +165,9 @@ body{
 }
 
 .f_dance{
-    position: absolute;
+    position: relative;
     height: 200px;
     width: 200px;
-    top: 175vh;
-    left: 50.6vw;
     z-index: 1;
     animation: delay 1s 0s none;
     transform: scale(1);
@@ -184,11 +184,9 @@ body{
 }
 
 .f_end{
-    position: absolute;
+    position: relative;
     height: 200px;
     width: 200px;
-    top: 175vh;
-    left: 64.55vw;
     z-index: 1;
     animation: delay 1s 0s none;
     transform: scale(1);
@@ -205,11 +203,9 @@ body{
 }
 
 .f_bask{
-    position: absolute;
+    position: relative;
     height: 200px;
     width: 200px;
-    top: 175vh;
-    left: 78.5vw;
     z-index: 1;
     animation: delay 1s 0s none;
     transform: scale(1);
