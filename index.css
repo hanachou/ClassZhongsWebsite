@@ -13,7 +13,7 @@ body{
 
 #fbar{
     position: absolute;
-    width: 100vw;
+    width: 98.9dvw;
     top: 0px;
     left: 0px;
 }
@@ -23,7 +23,7 @@ body{
     border-radius: 10%;
     height: 8%;
     top: 1.1vh;
-    right: 95.5vw;
+    right: 94vw;
 }
 
 /* #pend{
@@ -34,8 +34,8 @@ body{
 
 #gend{
     position: absolute;
-    width: 100vw;
-    top: 300vh;
+    width: 98.9dvw;
+    top: 340vh;
     left: 0;
 }
 
@@ -58,7 +58,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    top: -15dvh;
+    top: 60dvh;
 }
 
 #first{
@@ -75,14 +75,14 @@ body{
     height: 150px;
     width: 450px;
     left: 35vw;
-    top: 165vh;
+    top: 195vh;
     border: #3d4a3c;
     border: solid;
     border-radius: 5%;
     animation: delay 1s 0s none;
 }
 
-#f_FAQs{
+/* #f_FAQs{
     position: absolute;
     height: 150px;
     width: 450px;
@@ -93,14 +93,14 @@ body{
     border-radius: 5%;
     animation: delay 1s 0s none;
     opacity: 0;
-}
+} */
 
 #f_penguin{
     position: absolute;
     height: 384px;
     width: 384px;
     left: 37.5vw;
-    top: 245vh;
+    top: 270vh;
     /* border: #3d4a3c;
     border: solid;
     border-radius: 5%; */
