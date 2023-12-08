@@ -21,8 +21,8 @@ body{
 #logo{
     position: absolute;
     border-radius: 10%;
-    height: 55px;
-    width: 55px;
+    height: 1vh;
+    width: 1vw;
     top: 1.1vh;
     right: 95.5vw;
 }
