@@ -44,11 +44,75 @@ body{
     animation: delay 1s 0s none;
 }
 
+#p8{
+    position: absolute;
+    height: 160vh;
+    top: 440vh;
+    left: 25vw;
+    animation: delay 1s 0s none;
+}
+
+#p7{
+    position: absolute;
+    height: 160vh;
+    top: 620vh;
+    left: 25vw;
+    animation: delay 1s 0s none;
+}
+
+#p6{
+    position: absolute;
+    height: 160vh;
+    top: 790vh;
+    left: 25vw;
+    animation: delay 1s 0s none;
+}
+
+#p5{
+    position: absolute;
+    height: 160vh;
+    top: 970vh;
+    left: 25vw;
+    animation: delay 1s 0s none;
+}
+
+#p4{
+    position: absolute;
+    height: 160vh;
+    top: 1160vh;
+    left: 25vw;
+    animation: delay 1s 0s none;
+}
+
+#p3{
+    position: absolute;
+    height: 160vh;
+    top: 1350vh;
+    left: 25vw;
+    animation: delay 1s 0s none;
+}
+
+#p2{
+    position: absolute;
+    height: 160vh;
+    top: 1540vh;
+    left: 25vw;
+    animation: delay 1s 0s none;
+}
+
+#p1{
+    position: absolute;
+    height: 160vh;
+    top: 1720vh;
+    left: 25vw;
+    animation: delay 1s 0s none;
+}
+
 #p_penguin{
     position: absolute;
     width: 25vw;
     left: 37.5vw;
-    top: 435vh;
+    top: 1900vh;
     /* border: #3d4a3c;
     border: solid;
     border-radius: 5%; */
@@ -58,7 +122,7 @@ body{
 #gend{
     position: absolute;
     width: 100vw;
-    top: 500vh;
+    top: 1960vh;
     left: 0;
 }
 
@@ -85,7 +149,7 @@ body{
     opacity: 1;
 }
 
-.title{
+/* .title{
     position: absolute;
     color: #3d4a3c;
     font-size: 35px;
@@ -94,7 +158,7 @@ body{
     width: 200px;
     top: 1.5vh;
     right: 81vw;
-}
+} */
 
 /* .event{
     position: absolute;
@@ -172,7 +236,7 @@ body{
     font-family: Helvetica;
     text-align: center;
     left: 60vw;
-    top: 440vh;
+    top: 1900vh;
     width: 12vw;
     border-radius: 5%;
 }
