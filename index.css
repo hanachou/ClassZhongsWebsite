@@ -17,7 +17,7 @@ main{
     flex-grow: 1;
 }
 
-#fbar{
+/* #fbar{
     position: absolute;
     width: 100%;
     top: 0px;
@@ -30,7 +30,7 @@ main{
     height: 8%;
     top: 1.1vh;
     left: 2vw;
-}
+} */
 
 /* #pend{
     position: absolute;
@@ -40,7 +40,7 @@ main{
 
 #gend{
     position: relative;
-    width: 98.9dvw;
+    width: 100dvw;
     left: 0;
     top: 70vh;
 }
@@ -78,9 +78,8 @@ main{
 
 #f_event{
     position: relative;
-    height: 200px;
-    width: 600px;
-    left: 35vw;
+    height: 22vh;
+    left: 34vw;
     top: 20vh;
     border: #3d4a3c;
     border: solid;
@@ -103,8 +102,7 @@ main{
 
 #f_penguin{
     position: relative;
-    height: 450px;
-    width: 450px;
+    width: 25vw;
     left: 37.5vw;
     top: 55vh;
     /* border: #3d4a3c;
@@ -115,8 +113,7 @@ main{
 
 .f_train{
     position: relative;
-    height: 300px;
-    width: 300px;
+    width: 15vw;
     z-index: 1;
     animation: delay 1s 0s none;
     transform: scale(1);
@@ -134,8 +131,7 @@ main{
 
 .f_promote{
     position: relative;
-    height: 300px;
-    width: 300px;
+    width: 15vw;
     z-index: 1;
     animation: delay 1s 0s none;
     transform: scale(1);
@@ -153,8 +149,7 @@ main{
 
 .f_halloween{
     position: relative;
-    height: 300px;
-    width: 300px;
+    width: 15vw;
     z-index: 1;
     animation: delay 1s 0s none;
     transform: scale(1);
@@ -172,8 +167,7 @@ main{
 
 .f_dance{
     position: relative;
-    height: 300px;
-    width: 300px;
+    width: 15vw;
     z-index: 1;
     animation: delay 1s 0s none;
     transform: scale(1);
@@ -191,8 +185,7 @@ main{
 
 .f_end{
     position: relative;
-    height: 300px;
-    width: 300px;
+    width: 15vw;
     z-index: 1;
     animation: delay 1s 0s none;
     transform: scale(1);
@@ -210,8 +203,7 @@ main{
 
 .f_bask{
     position: relative;
-    height: 300px;
-    width: 300px;
+    width: 15vw;
     z-index: 1;
     animation: delay 1s 0s none;
     transform: scale(1);
@@ -227,13 +219,13 @@ main{
     cursor: pointer;
 }
 
-.title{
+/* .title{
     position: absolute;
     color: #3d4a3c;
     font-size: 42px;
     font-family: Helvetica;
     text-align: center;
-    /* height: 100px; */
+    height: 100px;
     width: 250px;
     top: 1vh;
     right: 81vw;
@@ -298,7 +290,7 @@ main{
     background-color: #3d4a3c;
     color: #fbf7eb;
     transition-duration: 0.3s;
-}
+} */
 
 .construct{
     position: relative;

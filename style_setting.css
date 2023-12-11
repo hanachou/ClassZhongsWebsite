@@ -16,11 +16,10 @@
 .title{
     position: absolute;
     color: #3d4a3c;
-    font-size: 42px;
+    font-size: 4.65vh;
     font-family: Helvetica;
     text-align: center;
-    height: 100px;
-    width: 250px;
+    width: 12vw;
     top: 1.5vh;
     right: 81vw;
 }
@@ -34,12 +33,12 @@
 .event{
     position: absolute;
     text-align: center;
-    right: 11.5vw;
+    right: 12vw;
     color: #3d4a3c;
-    font-size: 37px;
+    font-size: 4vh;
     font-family: Helvetica;
     line-height: 1.5;
-    width: 100px;
+    width: 5.5vw;
     top: 1.75vh;
     z-index: 1;
 }
@@ -55,10 +54,10 @@
     text-align: center;
     right: 1.3vw;
     color: #3d4a3c;
-    font-size: 37px;
+    font-size: 4vh;
     font-family: Helvetica;
     line-height: 1.5;
-    width: 150px;
+    width: 9.3vw;
     top: 1.75vh;
 }
 
@@ -73,10 +72,10 @@
     text-align: center;
     right: 19.3vw;
     color: #3d4a3c;
-    font-size: 37px;
+    font-size: 4vh;
     font-family: Helvetica;
     line-height: 1.5;
-    width: 130px;
+    width: 7.2vw;
     top: 1.75vh;
 }
 
