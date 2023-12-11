@@ -40,8 +40,8 @@ body{
     position: absolute;
     width: 180px;
     height: 120px;
-    right: 17vw;
-    top: 43vh;
+    right: 18vw;
+    top: 50vh;
     animation: delay 1s 0s none;
     /* top: 353px; */
 }
@@ -52,7 +52,7 @@ body{
     height: 120px;
     left: 15vw;
     /* top: 96.5vh; */
-    top: 793px;
+    top: 800px;
     animation: delay 1s 0s none;
 }
 
@@ -61,7 +61,7 @@ body{
     width: 180px;
     height: 120px;
     right: 17vw;
-    top: 149.5vh;
+    top: 171vh;
     animation: delay 1s 0s none;
 }
 
@@ -70,7 +70,7 @@ body{
     width: 180px;
     height: 120px;
     left: 16vw;
-    top: 202.5vh;
+    top: 231vh;
     animation: delay 1s 0s none;
 }
 
@@ -228,8 +228,8 @@ body{
     font-family: Helvetica;
     font-size: 25px;
     color: #fbf7eb;
-    right: 21.5vw;
-    top: 48.3vh;
+    right: 22.1vw;
+    top: 56.3vh;
     animation: delay 1s 0s none;
 }
 
@@ -238,8 +238,8 @@ body{
     font-family: Helvetica;
     font-size: 25px;
     color: #fbf7eb;
-    left: 17.8vw;
-    top: 102vh;
+    left: 17.6vw;
+    top: 116.6vh;
     animation: delay 1s 0s none;
 }
 
@@ -249,7 +249,7 @@ body{
     font-size: 25px;
     color: #fbf7eb;
     right: 20.5vw;
-    top: 155vh;
+    top: 177vh;
     animation: delay 1s 0s none;
 }
 
@@ -259,7 +259,7 @@ body{
     font-size: 25px;
     color: #fbf7eb;
     left: 19.5vw;
-    top: 207.8vh;
+    top: 237vh;
     animation: delay 1s 0s none;
 }
 
