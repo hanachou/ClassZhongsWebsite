@@ -120,6 +120,32 @@ body{
     transition-duration: 0.3s;
 }
 
+.basklines{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 25px;
+    font-family: Helvetica;
+    line-height: 1.5;
+    width: 550px;
+    top: 26vh;
+    left: 32vw;
+    animation: delay 1s 0s none;
+}
+
+.basklines2{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 25px;
+    font-family: Helvetica;
+    line-height: 1.5;
+    width: 150px;
+    top: 70vh;
+    right: 30vw;
+    animation: delay 1s 0s none;
+}
+
 html,
 body{
     height: 100%;

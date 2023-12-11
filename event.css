@@ -143,19 +143,19 @@ body{
     height: 384px;
     width: 384px;
     left: 37.5vw;
-    top: 340vh;
+    top: 370vh;
     /* border: #3d4a3c;
     border: solid;
     border-radius: 5%; */
     animation: delay 1s 0s none;
 }
 
-#gend{
+/* #gend{
     position: absolute;
     width: 100vw;
     top: 400vh;
     left: 0;
-}
+} */
 
 .title{
     position: absolute;
