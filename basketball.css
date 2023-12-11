@@ -119,3 +119,17 @@ body{
     color: #fbf7eb;
     transition-duration: 0.3s;
 }
+
+html,
+body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}

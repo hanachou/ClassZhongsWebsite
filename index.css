@@ -35,7 +35,6 @@ body{
 #gend{
     position: absolute;
     width: 98.9dvw;
-    top: 340vh;
     left: 0;
 }
 
@@ -286,4 +285,18 @@ body{
     background-color: #3d4a3c;
     color: #fbf7eb;
     transition-duration: 0.3s;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
 }
