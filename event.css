@@ -11,7 +11,7 @@ body{
     }
 }
 
-#fbar{
+/* #fbar{
     position: absolute;
     width: 100vw;
     top: 0px;
@@ -25,25 +25,24 @@ body{
     width: 55px;
     top: 1.1vh;
     right: 95.5vw;
-}
+} */
 
 #timeline{
-    position: absolute;
-    height: 3000px;
-    width: 900px;
-    top: -10vh;
-    left: 19vw;
+    position: relative;
+    height: 312vw;
+    left: 4vw;
+    top: -20vh;
     animation: delay 1s 0s none;
 }
 
-#bctrain{
+/* #bctrain{
     position: absolute;
     width: 180px;
     height: 120px;
     right: 18vw;
     top: 50vh;
     animation: delay 1s 0s none;
-    /* top: 353px; */
+    top: 353px;
 }
 
 #bcpromote{
@@ -51,7 +50,7 @@ body{
     width: 180px;
     height: 120px;
     left: 15vw;
-    /* top: 96.5vh; */
+    top: 96.5vh;
     top: 800px;
     animation: delay 1s 0s none;
 }
@@ -90,12 +89,11 @@ body{
     left: 16vw;
     top: 303.5vh;
     animation: delay 1s 0s none;
-}
+} */
 
 #eyeregular{
     position: absolute;
-    width: 370px;
-    height: 320px;
+    width: 26vw;
     top: 15vh;
     left: 5vw;
     animation: delay 1s 0s none;
@@ -103,12 +101,25 @@ body{
 
 #eyespecial{
     position: absolute;
-    width: 370px;
-    height: 320px;
+    width: 26vw;
     top: 15vh;
     left: 5vw;
     opacity: 0;
     z-index: 1;
+}
+
+.eyegg{
+    position: relative;
+    background-color: #3d4a3c;
+    color: #fbf7eb;
+    font-size: 2.3vh;
+    font-family: Helvetica;
+    text-align: center;
+    top: -650vh;
+    left: 30vw;
+    width: 12vw;
+    border-radius: 5%;
+    z-index: 4;
 }
 
 #eyespecial:hover{
@@ -117,18 +128,16 @@ body{
 
 #normalp0{
     position: absolute;
-    width: 256px;
-    height: 256px;
-    top: 280vh;
+    width: 20vw;
+    top: 315vh;
     right: 10vw;
     animation: delay 1s 0s none;
 }
 
 #specialp0{
     position: absolute;
-    width: 256px;
-    height: 256px;
-    top: 280vh;
+    width: 20vw;
+    top: 315vh;
     right: 10vw;
     opacity: 0;
     z-index: 1;
@@ -138,26 +147,38 @@ body{
     opacity: 1;
 }
 
+.twinkle{
+    position: relative;
+    background-color: #3d4a3c;
+    color: #fbf7eb;
+    font-size: 2.3vh;
+    font-family: Helvetica;
+    text-align: center;
+    top: -350vh;
+    left: 88vw;
+    width: 8vw;
+    border-radius: 5%;
+}
+
 #e_penguin{
     position: absolute;
-    height: 384px;
-    width: 384px;
+    width: 25vw;
     left: 37.5vw;
-    top: 370vh;
+    top: 620vh;
     /* border: #3d4a3c;
     border: solid;
     border-radius: 5%; */
     animation: delay 1s 0s none;
 }
 
-/* #gend{
+#gend{
     position: absolute;
     width: 100vw;
-    top: 400vh;
+    top: 700vh;
     left: 0;
-} */
+}
 
-.title{
+/* .title{
     position: absolute;
     color: #3d4a3c;
     font-size: 35px;
@@ -221,64 +242,137 @@ body{
     background-color: #3d4a3c;
     color: #fbf7eb;
     transition-duration: 0.3s;
-}
+} */
 
 .train{
     position: absolute;
     font-family: Helvetica;
-    font-size: 25px;
-    color: #fbf7eb;
-    right: 22.1vw;
-    top: 56.3vh;
+    font-size: 5.5vh;
+    text-align: center;
+    background-color: #d5e3d4;
+    color: #3d4a3c;
+    border-radius: 10%;
+    width: 30vh;
+    right: 3vw;
+    top: 87vh;
     animation: delay 1s 0s none;
 }
+
+.train:hover{
+    color: #fbf7eb;
+    background-color: #3d4a3c;
+    transition-duration: 0.3s;
+} 
 
 .promote{
     position: absolute;
     font-family: Helvetica;
-    font-size: 25px;
-    color: #fbf7eb;
-    left: 17.6vw;
-    top: 116.6vh;
+    font-size: 5.5vh;
+    text-align: center;
+    background-color: #d5e3d4;
+    color: #3d4a3c;
+    border-radius: 10%;
+    width: 35vh;
+    left: 2.5vw;
+    top: 184vh;
     animation: delay 1s 0s none;
 }
+
+.promote:hover{
+    color: #fbf7eb;
+    background-color: #3d4a3c;
+    transition-duration: 0.3s;
+} 
 
 .halloween{
     position: absolute;
     font-family: Helvetica;
-    font-size: 25px;
-    color: #fbf7eb;
-    right: 20.5vw;
-    top: 177vh;
+    font-size: 5.5vh;
+    text-align: center;
+    background-color: #d5e3d4;
+    color: #3d4a3c;
+    border-radius: 10%;
+    width: 30vh;
+    right: 4vw;
+    top: 281.5vh;
     animation: delay 1s 0s none;
 }
+
+.halloween:hover{
+    color: #fbf7eb;
+    background-color: #3d4a3c;
+    transition-duration: 0.3s;
+} 
 
 .dance{
     position: absolute;
     font-family: Helvetica;
-    font-size: 25px;
-    color: #fbf7eb;
-    left: 19.5vw;
-    top: 237vh;
+    font-size: 5.5vh;
+    text-align: center;
+    background-color: #d5e3d4;
+    color: #3d4a3c;
+    border-radius: 10%;
+    width: 30vh;
+    left: 6vw;
+    top: 377vh;
     animation: delay 1s 0s none;
 }
+
+.dance:hover{
+    color: #fbf7eb;
+    background-color: #3d4a3c;
+    transition-duration: 0.3s;
+} 
 
 .yearend{
     position: absolute;
     font-family: Helvetica;
-    font-size: 25px;
-    color: #fbf7eb;
-    right: 17.8vw;
-    top: 258.8vh;
+    font-size: 5.5vh;
+    text-align: center;
+    background-color: #d5e3d4;
+    color: #3d4a3c;
+    border-radius: 10%;
+    width: 30vh;
+    right: 2.5vw;
+    top: 470vh;
     animation: delay 1s 0s none;
 }
+
+.yearend:hover{
+    color: #fbf7eb;
+    background-color: #3d4a3c;
+    transition-duration: 0.3s;
+} 
 
 .basketball{
     position: absolute;
     font-family: Helvetica;
-    font-size: 25px;
-    color: #fbf7eb;
-    left: 20.5vw;
-    top: 309vh;
+    font-size: 5.5vh;
+    text-align: center;
+    background-color: #d5e3d4;
+    color: #3d4a3c;
+    border-radius: 10%;
+    width: 30vh;
+    left: 5vw;
+    top: 561vh;
     animation: delay 1s 0s none;
+}
+
+.basketball:hover{
+    color: #fbf7eb;
+    background-color: #3d4a3c;
+    transition-duration: 0.3s;
+} 
+
+.construct{
+    position: relative;
+    background-color: #3d4a3c;
+    color: #fbf7eb;
+    font-size: 2.3vh;
+    font-family: Helvetica;
+    text-align: center;
+    left: 60vw;
+    top: -45vh;
+    width: 15vw;
+    border-radius: 5%;
 }

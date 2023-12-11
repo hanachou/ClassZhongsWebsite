@@ -11,38 +11,36 @@ body{
     }
 }
 
-#fbar{
+/* #fbar{
     position: absolute;
     width: 100vw;
     top: 0px;
     left: 0px;
-}
+} */
 
-#logo{
+/* #logo{
     position: absolute;
     border-radius: 10%;
     height: 55px;
     width: 55px;
     top: 1.1vh;
     right: 95.5vw;
-}
+} */
 
 #train_talks{
     position: absolute;
     border-radius: 5%;
     top: 15vh;
     left: 25vw;
-    height: 554px;
-    width: 738.5px;
+    height: 85vh;
     animation: delay 1s 0s none;
 }
 
 #train_picts{
     position: absolute;
-    border-radius: 5%;
-    height: 800px;
-    width: 1000px;
-    top: 85vh;
+    border-radius: 10%;
+    width: 70vw;
+    top: 100vh;
     left: 16vw;
     animation: delay 1s 0s none;
 }
@@ -50,22 +48,22 @@ body{
 #gend{
     position: absolute;
     width: 100vw;
-    top: 210vh;
+    top: 230vh;
     left: 0;
 }
 
-.title{
+/* .title{
     position: absolute;
     color: #3d4a3c;
-    font-size: 35px;
+    font-size: 3.9vh;
     font-family: Helvetica;
     text-align: left;
-    width: 200px;
+    width: 10.4vw;
     top: 1.5vh;
     right: 81vw;
-}
+} */
 
-.event{
+/* .event{
     position: absolute;
     text-align: center;
     right: 12vw;
@@ -118,17 +116,17 @@ body{
     background-color: #3d4a3c;
     color: #fbf7eb;
     transition-duration: 0.3s;
-}
+} */
 
 .trainlines{
     position: absolute;
     text-align: left;
     color: #3d4a3c;
-    font-size: 20px;
+    font-size: 2.83vh;
     font-family: Helvetica;
     line-height: 1.5;
-    width: 550px;
-    top: 22.5vh;
+    width: 38.5vw;
+    top: 28vh;
     left: 32vw;
     animation: delay 1s 0s none;
 }
@@ -137,11 +135,11 @@ body{
     position: absolute;
     text-align: center;
     color: #3d4a3c;
-    font-size: 20px;
+    font-size: 3.4vh;
     font-family: Helvetica;
     line-height: 1.5;
-    width: 300px;
-    top: 73.8vh;
-    left: 56.6vw;
+    width: 15.625vw;
+    top: 86vh;
+    left: 60vw;
     animation: delay 1s 0s none;
 }

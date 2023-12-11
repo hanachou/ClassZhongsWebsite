@@ -29,8 +29,8 @@ body{
 
 #picture_wall1{
     position: absolute;
-    height: 1279.5px;
-    width: 720px;
+    height: 186.5vh;
+    /* width: 720px; */
     top: 20vh;
     left: 25vw;
     animation: delay 1s 0s none;
@@ -38,19 +38,17 @@ body{
 
 #picture_wall2{
     position: absolute;
-    height: 1279.5px;
-    width: 720px;
-    top: 190vh;
+    height: 186.5vh;
+    top: 230vh;
     left: 25vw;
     animation: delay 1s 0s none;
 }
 
 #p_penguin{
     position: absolute;
-    height: 384px;
-    width: 384px;
+    width: 25vw;
     left: 37.5vw;
-    top: 360vh;
+    top: 435vh;
     /* border: #3d4a3c;
     border: solid;
     border-radius: 5%; */
@@ -60,7 +58,7 @@ body{
 #gend{
     position: absolute;
     width: 100vw;
-    top: 420vh;
+    top: 500vh;
     left: 0;
 }
 
@@ -157,11 +155,24 @@ body{
     position: absolute;
     background-color: #3d4a3c;
     color: #fbf7eb;
-    font-size: 20px;
+    font-size: 2.3vh;
     font-family: Helvetica;
     text-align: center;
     top: 340vh;
     right: 9vw;
-    width: 110px;
+    width: 6vw;
+    border-radius: 5%;
+}
+
+.construct{
+    position: relative;
+    background-color: #3d4a3c;
+    color: #fbf7eb;
+    font-size: 2.3vh;
+    font-family: Helvetica;
+    text-align: center;
+    left: 60vw;
+    top: 440vh;
+    width: 12vw;
     border-radius: 5%;
 }

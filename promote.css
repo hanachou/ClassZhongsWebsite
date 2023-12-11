@@ -11,7 +11,7 @@ body{
     }
 }
 
-#fbar{
+/* #fbar{
     position: absolute;
     width: 100vw;
     top: 0px;
@@ -25,14 +25,13 @@ body{
     width: 55px;
     top: 1.1vh;
     right: 95.5vw;
-}
+} */
 
 #pro_pictures{
     position: absolute;
     border-radius: 5%;
-    height: 800px;
-    width: 1000px;
-    top: 95vh;
+    width: 73vw;
+    top: 120vh;
     left: 15vw;
     animation: delay 1s 0s none;
 }
@@ -42,19 +41,18 @@ body{
     border-radius: 5%;
     top: 15vh;
     left: 25vw;
-    height: 554px;
-    width: 738.5px;
+    height: 85vh;
     animation: delay 1s 0s none;
 }
 
 #gend{
     position: absolute;
     width: 100vw;
-    top: 210vh;
+    top: 260vh;
     left: 0;
 }
 
-.title{
+/* .title{
     position: absolute;
     color: #3d4a3c;
     font-size: 35px;
@@ -118,17 +116,30 @@ body{
     background-color: #3d4a3c;
     color: #fbf7eb;
     transition-duration: 0.3s;
-}
+} */
 
 .promotelines{
     position: absolute;
     text-align: left;
     color: #3d4a3c;
-    font-size: 27px;
+    font-size: 38px;
     font-family: Helvetica;
     line-height: 1.7;
-    width: 510px;
+    width: 80vh;
     top: 27vh;
     left: 33vw;
+    animation: delay 1s 0s none;
+}
+
+.promoteknee{
+    position: absolute;
+    text-align: left;
+    color: #3d4a3c;
+    font-size: 38px;
+    font-family: Helvetica;
+    line-height: 1.7;
+    width: 80vh;
+    top: 86vh;
+    left: 67vw;
     animation: delay 1s 0s none;
 }

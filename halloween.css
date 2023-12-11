@@ -11,7 +11,7 @@ body{
     }
 }
 
-#fbar{
+/* #fbar{
     position: absolute;
     width: 100vw;
     top: 0px;
@@ -25,24 +25,22 @@ body{
     width: 55px;
     top: 1.1vh;
     right: 95.5vw;
-}
+} */
 
 #hallo_talks{
     position: absolute;
     border-radius: 5%;
     top: 15vh;
     left: 25vw;
-    height: 554px;
-    width: 738.5px;
+    height: 85vh;
     animation: delay 1s 0s none;
 }
 
 #hallo_propose{
     position: absolute;
     border-radius: 5%;
-    height: 800px;
-    width: 1000px;
-    top: 93vh;
+    width: 72vw;
+    top: 120vh;
     left: 16vw;
     animation: delay 1s 0s none;
 }
@@ -50,9 +48,8 @@ body{
 #hallo_pict1{
     position: absolute;
     border-radius: 5%;
-    height: 800px;
-    width: 1000px;
-    top: 200vh;
+    width: 72vw;
+    top: 250vh;
     left: 16vw;
     animation: delay 1s 0s none;
 }
@@ -60,21 +57,20 @@ body{
 #hallo_pict2{
     position: absolute;
     border-radius: 5%;
-    height: 800px;
-    width: 1000px;
-    top: 305vh;
+    width: 72vw;
+    top: 380vh;
     left: 16vw;
     animation: delay 1s 0s none;
 }
 
-/* #gend{
+#gend{
     position: absolute;
     width: 100vw;
-    top: 210vh;
+    top: 520vh;
     left: 0;
-} */
+}
 
-.title{
+/* .title{
     position: absolute;
     color: #3d4a3c;
     font-size: 35px;
@@ -138,17 +134,17 @@ body{
     background-color: #3d4a3c;
     color: #fbf7eb;
     transition-duration: 0.3s;
-}
+} */
 
 .halloweenlines{
     position: absolute;
     text-align: left;
     color: #3d4a3c;
-    font-size: 20px;
+    font-size: 3.11vh;
     font-family: Helvetica;
     line-height: 1.5;
-    width: 530px;
-    top: 24vh;
+    width: 80vh;
+    top: 26vh;
     left: 32vw;
     animation: delay 1s 0s none;
 }
@@ -157,11 +153,11 @@ body{
     position: absolute;
     text-align: center;
     color: #3d4a3c;
-    font-size: 30px;
+    font-size: 3.9vh;
     font-family: Helvetica;
     line-height: 1.5;
-    width: 300px;
-    top: 68vh;
-    left: 50vw;
+    width: 70vw;
+    top: 80vh;
+    left: 32vw;
     animation: delay 1s 0s none;
 }
